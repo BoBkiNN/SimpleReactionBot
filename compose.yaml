@@ -1,0 +1,9 @@
+services:
+  server:
+    build:
+      context: .
+    user: "1002"
+    container_name: SimpleReactionBot
+    volumes:
+      - /home/HDD/Dockerserver/volumes/SimpleReactionBot:/app
+      - /home/HDD/Dockerserver/volumes/SimpleReactionBot:/home/HDD/Dockerserver/volumes/SimpleReactionBot
