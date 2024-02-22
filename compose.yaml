@@ -1,0 +1,8 @@
+services:
+  server:
+    build:
+      context: .
+    user: "1002"
+    container_name: SimpleReactionBot
+    volumes:
+      - ./SimpleReactionBot:/app
